@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+{% include 'sections/head.html' %}
+
+{% include 'sections/header.html' %}
+
+
+<body>
+
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  {% include 'sections/hero.html' %}
+
+  <main id="main">
+
+    {% include 'sections/about.html' %}
+
+    {% include 'sections/skills.html' %}
+
+    {% include 'sections/resume.html' %}
+
+    {% include 'sections/portfolio.html' %}
+
+    {% include 'sections/contact.html' %}
+  </main><!-- End #main -->
+
+  {% include 'sections/footer.html' %}
+
+</body>
+
+</html>
